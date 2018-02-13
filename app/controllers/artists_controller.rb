@@ -8,6 +8,8 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    binding.pry
+    # if 
     @artist = Artist.new
   end
 
